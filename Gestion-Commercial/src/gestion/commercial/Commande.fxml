@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="537.0" prefWidth="639.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.111" fx:controller="gestion.commercial.CommandeController">
+   <children>
+      <TextArea prefHeight="537.0" prefWidth="212.0" />
+      <TableView layoutX="214.0" layoutY="358.0" prefHeight="179.0" prefWidth="425.0">
+        <columns>
+          <TableColumn prefWidth="75.0" text="ID" />
+          <TableColumn prefWidth="75.0" text="Libelle" />
+            <TableColumn prefWidth="109.0" text="Qte Comd" />
+            <TableColumn prefWidth="88.0" text="Prix" />
+            <TableColumn prefWidth="77.0" text="Monntant" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>

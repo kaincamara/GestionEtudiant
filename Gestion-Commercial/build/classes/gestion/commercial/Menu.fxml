@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="538.0" prefWidth="782.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.111" fx:controller="gestion.commercial.MenuController">
+   <children>
+      <AnchorPane layoutX="200.0" prefHeight="96.0" prefWidth="582.0" style="-fx-background-color: #2D3447;">
+         <children>
+            <Text fill="#b9b6b6" layoutX="29.0" layoutY="53.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Bienvenue,">
+               <font>
+                  <Font name="System Bold" size="21.0" />
+               </font>
+            </Text>
+            <Text fill="#2196f3" layoutX="418.0" layoutY="53.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Profil">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutY="-1.0" prefHeight="538.0" prefWidth="200.0" style="-fx-background-color: #2D3447;">
+         <children>
+            <Text fill="#2196f3" layoutX="15.0" layoutY="114.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Gestion">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Text>
+            <Text fill="#c9c6c6" layoutX="79.0" layoutY="147.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Commercial">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Text>
+            <Text fill="#a8a5a5" layoutX="47.0" layoutY="178.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Dashbord">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Text>
+            <Text fill="#a8a5a5" layoutX="6.0" layoutY="346.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Profil">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Text>
+            <Text fill="#a8a5a5" layoutX="6.0" layoutY="200.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Stock">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Text>
+            <Text fill="#a8a5a5" layoutX="6.0" layoutY="284.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Commande">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Text>
+            <Text fill="#2196f3" layoutX="68.0" layoutY="316.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ajouter">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Text>
+            <Text fill="#2196f3" layoutX="68.0" layoutY="251.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Categorie">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Text>
+            <Text fill="#2196f3" layoutX="68.0" layoutY="224.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Article">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Text>
+            <Text fill="#2196f3" layoutX="68.0" layoutY="404.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Utilisateur">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Text>
+            <Text fill="#2196f3" layoutX="68.0" layoutY="377.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Profil">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Text>
+            <Separator layoutX="6.0" layoutY="435.0" prefHeight="1.0" prefWidth="188.0" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
